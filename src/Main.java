@@ -30,6 +30,16 @@ public class Main {
         System.out.println(number++);
         System.out.println(number);
         System.out.println(number--);
+        //Naming variables
+        int goals=0;
+        System.out.println(goals);
+         //booleans
+        boolean hasCat=false;
+         //strings
+        String phone_number="356-5332-3342";
+        System.out.println(phone_number);
+        //Reference types and objects
+
 
     }
 }
