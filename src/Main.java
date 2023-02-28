@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,6 +46,18 @@ public class Main {
         System.out.println("PointA="+pointA);
         System.out.println(pointA.distanceSq(44,33));
         //Arrays
+        int[] numbers=new int[3];
+        numbers[0]=3;
+        numbers[1]=321;
+        numbers[2]=33;
+        System.out.println(Arrays.toString(numbers));
+        System.out.println(numbers.length);
+        int[] numbers2={3,5,7,3,2,6,7,};
+        System.out.println(numbers2.length);
+        numbers2[2]=45;
+        String[] names={"Ndeta", "vome","moumeni"};
+        System.out.println(Arrays.toString(names));
+        //Array null numbers
 
     }
 }
