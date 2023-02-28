@@ -55,9 +55,19 @@ public class Main {
         int[] numbers2={3,5,7,3,2,6,7,};
         System.out.println(numbers2.length);
         numbers2[2]=45;
-        String[] names={"Ndeta", "vome","moumeni"};
+        String[] names={"Ndeta", "vome","moumeni","Peter","Joan","john"};
         System.out.println(Arrays.toString(names));
         //Array null numbers
-
+        int[] people=new int[3];
+        Arrays.fill(people,-1);
+        people[2]=27;
+        String[] food=new String[3];
+        Arrays.fill(food,"yams");
+        food[1]="rice";
+        System.out.println(Arrays.toString(food));
+        for(int i=0; i<names.length; i++){
+            System.out.println(names[i]);
+        }
+        //If statements
     }
 }
