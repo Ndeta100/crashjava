@@ -1,3 +1,4 @@
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +40,11 @@ public class Main {
         String phone_number="356-5332-3342";
         System.out.println(phone_number);
         //Reference types and objects
-
+            int age=21;
+        Point pointA=new Point(10,10);
+        System.out.println("PointA="+pointA);
+        System.out.println(pointA.distanceSq(44,33));
+        //Arrays
 
     }
 }
